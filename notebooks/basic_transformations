@@ -1,1 +1,12 @@
+from pyspark.sql import Sparksession
+from pyspark.sql.functions import col
+spark=
+sparksession.builder.appName("Hackathon").getOrCreate()
+data = [
+(1,"Alice",3000),
+(2,"Blob",4000),
+(3,"cherry",5000)
+]
+df=spark.createDataFrame(data,["id","name","salary"]0
+df.filter(col("salary")>3500).show()
 
